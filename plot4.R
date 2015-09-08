@@ -21,7 +21,7 @@ EPCData$datetime <- strptime(paste(EPCData$Date,EPCData$Time), format="%d/%m/%Y 
 EPCData$Date <- as.Date(EPCData$Date, "%d/%m/%Y")
 
 
-# Create time series plot of Energy sub metering and output as PNG file
+# Create plot4 and output as PNG file
 
 png(filename = "plot4.png")
 par(mfcol=c(2,2))
